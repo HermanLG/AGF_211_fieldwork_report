@@ -1,0 +1,51 @@
+%%%%%%%%%%%%%%%%%%% READ ME%%%%%%%%%%%%%%%%%%%%%%%%
+% This file is used for compiling your report as a STANDALONE VERSION (without binding offset etc) for the hand in. In this file, just fill in your reports title and author names below. All text, figures, tables etc are supposed to be written in the according section files in the "sections" subfolder. IF YOU END UP NOT NEEDING a separate summary and/or appendix section, COMMENT OUT BELOW in the \input{} lines accordingly (also see the comments below and do the same thing in "main.tex")!
+
+% Contact for help: peter.pasdzierny@googlemail.com
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Document setup
+\documentclass[12pt,a4paper,titlepage = false,twoside, bibliography=totoc]{scrartcl}
+
+% Loading of additional packages and custom settings is done in "preamble_single.tex" to keep this main.tex file tidy
+\input{preamble_single}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Put in your report title here (also put it in "main.tex")
+\title{Report title}
+
+% Put in your author names here (also put them in in "main.tex")
+\author{Author 1, Author 2}
+
+% Put in the date of your report
+\date{\today}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% This creates the title for your report with the information given above
+\maketitle
+
+% This creates the table of contents for your standalone report version
+\tableofcontents
+
+% Here the indivual sections are incorporated for compilation. If you end up not having a separate summary/conclusion and/or report, comment out one or both lines below accordingly (also, do the same thing in "main.tex")!
+\input{sections/00_abstract}
+\input{sections/01_introduction}
+\input{sections/02_methods}
+\input{sections/03_results}
+\input{sections/04_discussion}
+\input{sections/05_summary}
+
+% This includes the bibliography of your report and sets the bibliography style (do not alter the AGFstyle.bst file!)
+\bibliographystyle{AGFstyle}
+\bibliography{literature}
+
+% Appendix usually goes behind the bibliography (comment out, if you do not have any)
+\input{sections/06_appendix}
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

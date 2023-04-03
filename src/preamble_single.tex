@@ -1,0 +1,81 @@
+% This file contains all additional packages and custom settings needed for the report document. You can add more packages at the end, if they are (really) needed for your report.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Set input encoding ("UTF8 all the things!")
+\usepackage[utf8]{inputenc}
+
+% Set correct output encoding for the font(s)
+\usepackage[T1]{fontenc}
+
+% Set page margins and binding offset (this package is just one of many options to do this)
+\usepackage[bottom=3cm, top=2.5cm, left=2cm, right=2cm]{geometry}
+
+% Set englisch as the document language (takes care of correct labeling and headings for table of contents etc.
+\usepackage[english]{babel}
+
+% Enhance the typesetting (basically you should not use LateX without this package)
+\usepackage{microtype}
+
+%  Set the header/footer/ruler style (this package, part of the KOMA-script classes, is just one of many options to do this)
+\usepackage[automark]{scrlayer-scrpage}
+\pagestyle{scrheadings}
+\setheadsepline{1pt}
+
+% Set the document font (can be replaced with other font packages)
+\usepackage{lmodern}
+
+% Takes care of the bilbiography; chapterbib enables multiple biliographys for each chapter ( = for each report in this report comppilation)
+\usepackage[sectionbib]{natbib}
+\usepackage{chapterbib}
+
+% Enables the abstract environment
+\usepackage{abstract}
+
+% Takes care of colors and graphics
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{graphicx}
+
+% Takes care of table and (sub-)figure captions
+\usepackage{caption}
+\usepackage{subcaption}
+
+% Better tables (use \toprule \midrule and \bottomrule instead of \hline and do not use vertical lines in tables!)
+\usepackage{booktabs}
+
+% Better maths
+\usepackage{amsmath}
+\usepackage{mathtools}
+
+% Easy and typograpic correct typeswetting of numbers with units, ranges etc. (highly recommended to use this package instead of manual typsetting numbers and units!). Also some better default settings are included
+\usepackage{siunitx}
+    \sisetup{range-phrase = -}
+    \sisetup{range-units = single}
+    \sisetup{separate-uncertainty = true,multi-part-units=single}
+    
+% Enables the \floatbarrier command to force all floats (figures, tables) to be placed before this command (can be used unlimited times in a document)
+\usepackage[section]{placeins}
+
+% Creates links inside the document (table of contents, figures, tables etc.) and enables the \autoref{} command, with replaces and is superior to the default \ref{}, because is automatically incudes "figure", "table", "section", "equation", etc before the linked label/value/number, so: less manual errorprone work
+\usepackage{hyperref}
+
+% Makes the bibliography of each report to appear as a section in the table of contents, instead of a chapter
+\renewcommand{\bibsection}{\section{\bibname}}
+
+% Enables the \chapterauthor{} command, to include each reports authors under each chapter title (which here replace the individual reports title of the standalone version of the individual reports)
+\makeatletter
+\newcommand{\chapterauthor}[1]{%
+  {\parindent0pt\vspace*{-15pt}\hspace*{28pt}%
+  \linespread{1.1}\large\scshape#1%
+  \par\nobreak\vspace*{20pt}}
+  \@afterheading%
+}
+\makeatother
+
+% Sets the spacing between the entrys in the bibliography
+\setlength{\bibsep}{4pt}
+
+% Enables the creation of all kinds of figures/plots directly in LateX, but is here only loaded for the corner rounding of the title photo
+\usepackage{tikz}
+\newcommand*{\ClipSep}{0.5cm}
+
+% ADD FURTHER PACKAGES HERE, IF (REALLY) NEEDED FOR YOUR REPORT

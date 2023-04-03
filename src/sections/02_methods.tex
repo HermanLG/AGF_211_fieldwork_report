@@ -1,0 +1,38 @@
+\section{Instruments, Data and Methods} \label{sec:methods}
+
+\subsection{Darcy's law}
+
+Darcy's law describes the hydraulic flux of a fluid through a cross section using the hydraulic conductivity.\\
+Without gravitational influence the instantaneous flux $q[m/s]$ though a porous medium with cross section $A[m^2]$ and permeability $k[m^2]$ of a fluid with viscosity $\mu[Pa \; s]$ is given by equation \ref{darcys law}
+
+\begin{equation}\label{darcys law}
+    q = -\frac{k}{\mu}\nabla p
+\end{equation}
+
+Where $\nabla p[Pa]$ is the pressure difference over length $L[m]$. The negative sign means that the fluid flows from high pressure area to a low pressure area. 
+In the case of vertical flux and by assuming a static fluid pressure we can relate the pressure to the height of the fluid by Stevin's law.
+
+\begin{equation}\label{darcys law diff eq}
+    q(t) = -\frac{\rho g k}{\mu L}\Delta h(t) \\
+\end{equation}
+
+Where $g$ is the gravitational acceleration, and $\rho$ is the density of the fluid. Note that we have added a time dependency of the height and thus flux. As the volume is filled up, the height(and pressure) increase, altering the flux. \\ 
+The solution to the differential equation \ref{darcys law diff eq} shows an exponential relation between height and time.  
+
+\begin{equation}\label{diff eq solution}
+    h(t) = h_0 \: exp\left(-\frac{\rho g k t}{\mu L}\right)
+\end{equation}
+
+Linearizing equation \ref{diff eq solution} and solving for the permeability $k$ yields:
+
+\begin{equation}\label{lin.diff sol}
+    k = \frac{a \rho g}{\mu L}
+\end{equation}
+
+Were as $a$ is a linear relation coefficient, which can be found by regression. 
+
+\subsection{Empirical model}
+
+
+
+

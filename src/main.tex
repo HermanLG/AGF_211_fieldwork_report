@@ -1,0 +1,25 @@
+%%%%%%%%%%%%%%%%%%% READ ME%%%%%%%%%%%%%%%%%%%%%%%%
+% This file is only used for compilation of the final report by the editors and thus should NOT BE CHANGED, EXCEPT for putting in your title and author names below. All text, figures, tables etc are supposed to be written in the according section files in the "sections" subfolder. IF YOU END UP NOT NEEDING a separate summary and/or appendix section, COMMENT OUT BELOW in the \input{} lines accordingly (also see the comments below and do the same thing in "COMPILE_REPORT.tex")! The "preamble_single" holds a comprehensive selection of packages and custom settings commonly used and useful for scientific reports. Only add packages if really needed and best do so at the end of the "preable_single" file - and let the final report editors know, if you added anything to make their life easier. Also, if in doubt about general formatting choices, talk to the other groups and the editor team to ensure uniform style throughout the final report.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+% Put in your report title here (also put it in "COMPILE_REPORT.tex")
+\chapter{Report title}
+
+% Put in your author names here (also put them in in "COMPILE_REPORT.tex")
+\chapterauthor{Author 1, Author 2}
+
+% Here the indivual sections are incorporated for compilation. If you end up not having a separate summary/conclusion and/or report, comment out one or both lines below accordingly (also, do the same thing in "compile.tex")!
+\input{sections/00_abstract}
+\input{sections/01_introduction}
+\input{sections/02_methods}
+\input{sections/03_results}
+\input{sections/04_discussion}
+\input{sections/05_summary}
+
+% This inputs the bibliography of your report
+\bibliography{literature}
+\bibliographystyle{AGFstyle}
+
+% Appendix usually goes behind the bibliography (comment out, if you do not have any)
+\input{sections/06_appendix}
