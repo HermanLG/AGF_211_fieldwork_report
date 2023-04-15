@@ -9,27 +9,39 @@ Without gravitational influence the instantaneous flux $q[m/s]$ though a porous 
     q = -\frac{k}{\mu}\nabla p
 \end{equation}
 
-Where $\nabla p[Pa]$ is the pressure difference over length $L[m]$. The negative sign means that the fluid flows from high pressure area to a low pressure area. 
-In the case of vertical flux and by assuming a static fluid pressure we can relate the pressure to the height of the fluid by Stevin's law.
+Where $\nabla p[Pa]$ is the pressure gradiant over the volume.
+The negative sign means that the fluid flows from high pressure area to a low pressure area.
+In the case of vertical flux and by assuming a hydrostatic pressure we can relate the pressure to the height of the fluid by Stevin's law.
+We then consider the seawater to be incompressible and the height of the hole to be negligible compared to the radius of the earth, so that $g$ and $\rho$ can be assumed constant.
 
-\begin{equation}\label{darcys law diff eq}
+\begin{equation}\label{darcyslawdiffeq}
     q(t) = -\frac{\rho g k}{\mu L}\Delta h(t) \\
 \end{equation}
 
-Where $g$ is the gravitational acceleration, and $\rho$ is the density of the fluid. Note that we have added a time dependency of the height and thus flux. As the volume is filled up, the height(and pressure) increase, altering the flux. \\ 
-The solution to the differential equation \ref{darcys law diff eq} shows an exponential relation between height and time.  
+Where $g$ is the gravitational acceleration, $\rho$ is the density of the fluid and $L[m]$ is the distance the fluid percolates.
+Note that we have added a time dependency of the height and thus flux.
+Darcy's law does not account for a change in pressure, but as our holes fills with water the height and pressure changes, altering the flux.
+Only when the pressure gradient is fairly large we are able to compute the permeability, when the gradient goes towards zero the equation is no longer valid.  \\
+We assume the other parameters to remain constants.
+The solution to the first-order linear ordinary differential equation \ref{darcyslawdiffeq} is given on the form:
+
+\begin{equation}
+    y(t) = A \: \frac{d}{dt}\left( y(t) \right) \Rightarrow y(t) = c_1 \: e^{\frac{t}{A}}
+\end{equation}
+
+The solution shows an exponential relation between height and time.
 
 \begin{equation}\label{diff eq solution}
     h(t) = h_0 \: exp\left(-\frac{\rho g k t}{\mu L}\right)
 \end{equation}
 
-Linearizing equation \ref{diff eq solution} and solving for the permeability $k$ yields:
+Linearizing and solving for the permeability $k$ yields:
 
 \begin{equation}\label{lin.diff sol}
-    k = \frac{a \rho g}{\mu L}
+    k = -a\frac{\mu L}{\rho g}
 \end{equation}
 
-Were as $a$ is a linear relation coefficient, which can be found by regression. 
+Were as $a$ is a linear relation coefficient defined as $a = \log\left(\frac{h(t)}{h_0}\right) /t$ which can be found by regression.
 
 \subsection{Empirical model}
 

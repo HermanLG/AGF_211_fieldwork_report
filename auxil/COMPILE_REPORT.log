@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.5)  3 APR 2023 10:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.5)  3 APR 2023 14:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1028,7 +1028,8 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count339
 \l__pdf_internal_box=\box78
 )
-No file COMPILE_REPORT.aux.
+(C:/Users\Herma\PycharmProjects\AGF_211_fieldwork_report\auxil\COMPILE_REPORT.a
+ux)
 \openout1 = `COMPILE_REPORT.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
@@ -1058,6 +1059,7 @@ Package scrbase Info: activating english \listfigurename on input line 26.
 Package scrbase Info: activating english \listtablename on input line 26.
 Package scrbase Info: activating english \refname on input line 26.
 Package scrbase Info: activating english \indexname on input line 26.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1149,6 +1151,11 @@ nslations-basic-dictionary')
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 26.
 Package hyperref Info: Link coloring OFF on input line 26.
+
+(C:/Users\Herma\PycharmProjects\AGF_211_fieldwork_report\auxil\COMPILE_REPORT.o
+ut)
+(C:/Users\Herma\PycharmProjects\AGF_211_fieldwork_report\auxil\COMPILE_REPORT.o
+ut)
 \@outlinefile=\write4
 \openout4 = `COMPILE_REPORT.out'.
 
@@ -1210,11 +1217,17 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 Package tocbasic Info: character protrusion at toc deactivated on input line 32
 .
 
-No file COMPILE_REPORT.toc.
+(C:/Users\Herma\PycharmProjects\AGF_211_fieldwork_report\auxil\COMPILE_REPORT.t
+oc
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 4.
+)
 \tf@toc=\write5
 \openout5 = `COMPILE_REPORT.toc'.
 
-(sections/00_abstract.tex) (sections/01_introduction.tex
+ (sections/00_abstract.tex) (sections/01_introduction.tex
 
 Package natbib Warning: Citation `ArcticAmplification' on page 1 undefined on i
 nput line 3.
@@ -1223,28 +1236,11 @@ nput line 3.
 Package natbib Warning: Citation `ArcticAmplification' on page 1 undefined on i
 nput line 3.
 
-) (sections/02_methods.tex
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 6.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 6.
+) (sections/02_methods.tex [1
 
 
-LaTeX Warning: Reference `darcys law' on page 1 undefined on input line 6.
-
-
-LaTeX Warning: Reference `darcys law diff eq' on page 1 undefined on input line
- 20.
-
-[1
-
-
-{C:/Users/Herma/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-
-LaTeX Warning: Reference `diff eq solution' on page 2 undefined on input line 2
-6.
-
-) (sections/03_results.tex
+{C:/Users/Herma/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) (sections/0
+3_results.tex
 
 LaTeX Warning: File `report_template/figures/dummy-figure.jpg' not found on inp
 ut line 8.
@@ -1281,50 +1277,41 @@ Package natbib Warning: There were undefined citations.
 [4]
 (C:/Users\Herma\PycharmProjects\AGF_211_fieldwork_report\auxil\COMPILE_REPORT.a
 ux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `COMPILE_REPORT.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `COMPILE_REPORT.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `COMPILE_REPORT.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34377 strings out of 476375
- 730054 string characters out of 5788976
- 1867299 words of memory out of 5000000
- 54126 multiletter control sequences out of 15000+600000
+ 34390 strings out of 476375
+ 730806 string characters out of 5788976
+ 1868299 words of memory out of 5000000
+ 54130 multiletter control sequences out of 15000+600000
  567780 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,20n,106p,10611b,928s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/Herma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C
-:/Users/Herma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C
-:/Users/Herma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C
 :/Users/Herma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Us
-ers/Herma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Us
+ers/Herma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Us
+ers/Herma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Us
+ers/Herma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Us
 ers/Herma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Us
 ers/Herma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Us
 ers/Herma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Us
 ers/Herma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Us
-ers/Herma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Use
-rs/Herma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/User
-s/Herma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users
-/Herma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/H
-erma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/H
-erma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users
-/Herma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users
-/Herma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+ers/Herma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Use
+rs/Herma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/User
+s/Herma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users
+/Herma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/
+Herma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/H
+erma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/Her
+ma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Herma
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/Herma
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Her
+ma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Her
+ma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
 Output written on C:/Users\Herma\PycharmProjects\AGF_211_fieldwork_report\out\C
-OMPILE_REPORT.pdf (4 pages, 257398 bytes).
+OMPILE_REPORT.pdf (4 pages, 288017 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
+ 173 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
  33373 words of extra memory for PDF output out of 35830 (max. 10000000)
 
