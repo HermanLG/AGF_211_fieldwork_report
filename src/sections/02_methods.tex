@@ -41,17 +41,56 @@ Linearizing and solving for the permeability $k$ yields:
     k = -a\frac{\mu L}{\rho g}
 \end{equation}
 
-Were as $a$ is a linear relation coefficient defined as $a = \log\left(\frac{h(t)}{h_0}\right) /t$ which can be found by regression.
+Were as $a$ is a linear relation coefficient defined as $a = \log\left(\frac{h(t)}{h_0}\right)t^{-1}$ which can be found by regression.
 
-\subsection{Empirical model}
+\subsection{Empirical model}\label{subsec:empirical-model}
+By measuring the salinity and temperature of young sea ice, one can use an empirical approximation to estimate the permeability of the ice.
+This section will follow the reasoning by \cite{src/citations/citation-267564215.bib} and references within.
+
+\begin{equation}\label{emp.eq.perm}
+    \Pi = 10^{-17}[10^3(1 - \phi_v)]^{3.1}
+\end{equation}
+
+$\Pi$ is the permeability, whereas $\phi_v$ is the approximated solid volume fraction, given in equation \ref{solid volume fraction}
+
+\begin{equation}\label{solid volume fraction}
+    \phi_v = 1 - \frac{S_{bu}}{S_{br}}
+\end{equation}
+
+$S_{bu}$ is the bulk salinity of the ice, which are found through the measurements of the ice core samples.
+From~\cite{src/citations/pericles_21562202c114.bib}, we can estimate the brine salinity based on the temperature[$C^{\circ}$] of the ice.
+
+\begin{equation}\label{brine salinity from temp}
+    S_{br} = -21.4T - 0.886T^2 - 0.0170T^3
+\end{equation}
 
 
-\begin{figure}
-    \centering
-    \includegraphics[width=\textwidth]{}
-    \caption{Caption}
-    \label{fig:my_label}
-\end{figure}
+\subsection{Experimental protocol}\label{subsec:experimental-protocol}
+We cut 6 square holes into the sea-ice, hereby named station 1--6.
+Station 1 was placed the closes to the ice edge, whiles station 6 the farthest into the fjord, see figure MAP OVER THE STATIONS.
+This was done to analyse the ice structure for different ice depths, to see the variation in the sea-ice.
+The sea ice was mostly covered in snow, with depth varying from 1cm to 25cm.
+This was shoveled off, along with some slush ice.
+We tried to keep at least one shallow layer of slush ice for each observation.
+About a 30x30cm ice block was removed and laid on its side.
+The block was heavily photographed, and the apparent structures were noted.
+The block was then coated in PURPLE STUFF, to be abel to visualises the brine channels more clearly.
+Both horizontal and vertical tests were done and analysed.
+Fresh water ice has fewer brine channels than sea-water ice, and the PURPLE STUFF will not percolate as easily through fresh-water ice as it would for sea-water ice.\\
+The stations were placed in the proximity of the ice cores drilled by [CITE THE ICE CORE GROUP].
+All the salinity and temperature profiles of the ice samples are gathered and analysed by [CITE THE ICE CORE GROUP].\\
+By measuring the amount of $^{18}O$ in the ice samples, one can find out if the water originates from precipitation or groundwater.
+By using this so called $\delta ^{18}O$ test, we can figure out if the apparent fresh water ice layer found in the sea-ice originates from precipitation or the nearby fresh-water sources.\\
+We attempted to perform permeability tests by the use of blind holes.
+This would be done by drilling to a certain depth in the sea-ice, measure how far the water rises and how fast the water pressure stabilizes.
+This could then be related to Darcy's law and thus estimate the permeability.
+This requires the ice to be relatively porous, for water to flow thought it.
+Another method of estimating the permeability is by an empirical approximation.
+Here we would use the salinity and temperature measurements gathered by [CITE ICE CORE GROUP].
+The permability if the different layers in the ice could tell us more about that type of ice which has formed
+
+\subsection{Instruments}\label{subsec:instruments}
+
 
 
 

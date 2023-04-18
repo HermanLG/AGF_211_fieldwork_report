@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.5)  3 APR 2023 14:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.5)  18 APR 2023 13:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1239,8 +1239,16 @@ nput line 3.
 ) (sections/02_methods.tex [1
 
 
-{C:/Users/Herma/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) (sections/0
-3_results.tex
+{C:/Users/Herma/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+
+Package natbib Warning: Citation `src/citations/citation-267564215.bib' on page
+ 2 undefined on input line 48.
+
+
+Package natbib Warning: Citation `src/citations/pericles_21562202c114.bib' on p
+age 2 undefined on input line 61.
+
+[2]) (sections/03_results.tex
 
 LaTeX Warning: File `report_template/figures/dummy-figure.jpg' not found on inp
 ut line 8.
@@ -1268,31 +1276,34 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 )
-(sections/04_discussion.tex [2] [3]) (sections/05_summary.tex)
+(sections/04_discussion.tex [3] [4]) (sections/05_summary.tex)
 No file COMPILE_REPORT.bbl.
 (sections/06_appendix.tex)
 
 Package natbib Warning: There were undefined citations.
 
-[4]
+[5]
 (C:/Users\Herma\PycharmProjects\AGF_211_fieldwork_report\auxil\COMPILE_REPORT.a
 ux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `COMPILE_REPORT.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34390 strings out of 476375
- 730806 string characters out of 5788976
+ 34428 strings out of 476375
+ 731278 string characters out of 5788976
  1868299 words of memory out of 5000000
- 54130 multiletter control sequences out of 15000+600000
- 567780 words of font info for 104 fonts, out of 8000000 for 9000
+ 54142 multiletter control sequences out of 15000+600000
+ 568696 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,20n,106p,10611b,928s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/Herma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C
+:/Users/Herma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C
 :/Users/Herma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Us
 ers/Herma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Us
-ers/Herma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Us
-ers/Herma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Us
+ers/Herma/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Us
 ers/Herma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Us
 ers/Herma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Us
 ers/Herma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Us
@@ -1307,11 +1318,12 @@ ma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Herma
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/Herma
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Her
 ma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Her
-ma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+ma/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Herm
+a/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
 Output written on C:/Users\Herma\PycharmProjects\AGF_211_fieldwork_report\out\C
-OMPILE_REPORT.pdf (4 pages, 288017 bytes).
+OMPILE_REPORT.pdf (5 pages, 306844 bytes).
 PDF statistics:
- 173 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 33373 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 197 PDF objects out of 1000 (max. 8388607)
+ 28 named destinations out of 1000 (max. 500000)
+ 33389 words of extra memory for PDF output out of 35830 (max. 10000000)
 
